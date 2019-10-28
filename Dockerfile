@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3
 
-RUN git clone https://github.com/aboulle/RaDMaX-webapp /radmax
+RUN git clone https://github.com/aboulle/RaDMaX-online /radmax
 
 WORKDIR /radmax
 

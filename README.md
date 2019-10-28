@@ -1,6 +1,6 @@
 # RaDMaX-docker
 
-Dockerfile and docker-compose.yml to run locally the RaDMaX-webapp project : https://github.com/aboulle/RaDMaX-webapp
+Dockerfile and docker-compose.yml to run locally the RaDMaX-online project : https://github.com/aboulle/RaDMaX-online
 
 ## Prerequisites
 
@@ -23,4 +23,4 @@ Go to http://localhost:8866
 
 - Docker : https://docs.docker.com/
 - Docker Compose : https://docs.docker.com/compose/
-- RaDMaX : https://github.com/aboulle/RaDMaX-webapp
+- RaDMaX : https://github.com/aboulle/RaDMaX-online
