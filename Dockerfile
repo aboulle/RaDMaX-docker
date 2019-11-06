@@ -5,9 +5,9 @@ RUN git clone https://github.com/aboulle/RaDMaX-online /radmax
 WORKDIR /radmax
 
 RUN conda install -c anaconda scipy
-RUN conda install -c anaconda numpy   
+RUN conda install -c anaconda numpy
 RUN conda install -c conda-forge ipywidgets
-RUN conda install -c conda-forge bqplot
+RUN conda install -c conda-forge bqplot=0.11.9
 RUN conda install -c conda-forge voila
 
 RUN apt install -y gcc
