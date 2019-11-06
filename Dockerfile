@@ -10,7 +10,7 @@ RUN conda install -c conda-forge ipywidgets
 RUN conda install -c conda-forge bqplot=0.11.9
 RUN conda install -c conda-forge voila
 
-RUN apt install -y gcc
+RUN apt update && apt install -y gcc
 RUN pip install xrayutilities
 
 CMD [ "voila", "RaDMaX.ipynb" ]
