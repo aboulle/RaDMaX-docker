@@ -9,10 +9,11 @@ RUN conda install -c anaconda numpy
 RUN conda install -c conda-forge ipywidgets=7.5.1
 RUN conda install -c conda-forge bqplot=0.11.9
 RUN conda install -c conda-forge voila=0.1.11
+RUN conda install -c conda-forge h5py
 
 RUN apt update && apt install -y gcc
 RUN pip install xrayutilities==1.5.1
 
-CMD [ "voila", "RaDMaX.ipynb" ]
+CMD [ "voila", "--no-browser", "--theme=dark", "RaDMaX.ipynb" ]
 
 
