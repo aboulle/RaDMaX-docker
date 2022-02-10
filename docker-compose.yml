@@ -5,4 +5,5 @@ services:
     build: .
     ports:
       - 8866:8866
+    restart: unless-stopped
     
