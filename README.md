@@ -24,3 +24,13 @@ Go to http://localhost:8866
 - Docker : https://docs.docker.com/
 - Docker Compose : https://docs.docker.com/compose/
 - RaDMaX : https://github.com/aboulle/RaDMaX-online
+
+## Help
+
+Pull base image
+
+	docker pull continuumio/miniconda3:latest
+
+Build
+
+	docker build ./build-radmax/ -t radmax:test

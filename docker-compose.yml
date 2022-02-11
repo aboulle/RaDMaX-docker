@@ -1,9 +1,11 @@
 version: '3'
 services:
   radmax:
-    image: radmax
-    build: .
+    image: radmax:ok
+    # build: ./build-radmax
     ports:
       - 8866:8866
+    volumes:
+      - ./RaDMaX-online:/radmax
     restart: unless-stopped
     
